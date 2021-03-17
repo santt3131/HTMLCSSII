@@ -1,23 +1,113 @@
-
-
 body {
-  margin: 0;
-  padding: 30px;
+  margin: auto;
+  padding: 50px;
   font-family: $font-family-sans-serif;
-  background-color: $uoc-bg;
-  color: $uoc-corporate;
+  background-color: $main-color;
+  color: $font-color;
+  width: 90%;
 }
 
-.uoc-logo {
-  display: block;
-  margin-bottom: 20px;
-  width: 300px;
-  height: auto;
+
+/****************************
+Contenedores
+*****************************/
+.info,
+.personal,
+.professional {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
-.uoc-title {
-  font-family: $font-family-serif;
-  font-size: 36px;
-  font-weight: 700;
-  color: $uoc-corporate;
+.professional{
+  background-color: $second-color;
+  color: $font-color-second;
+}
+
+section {
+  padding: 10px 0;
+}
+
+header {
+  padding: 15px 0;
+}
+
+.aboutme__info,.contact__item {
+  line-height: 2rem;
+}
+
+/*other*/
+.logo{
+  list-style-type: none;
+  padding: 0;
+  text-align:center;
+}
+
+.logo__item{
+  padding: 10px;
+}
+
+/*task of experience*/
+.tasklist{
+  padding: 0 5px;
+}
+
+.photo__item{
+  clip-path: circle(40%);
+}
+
+
+
+/*Mobile*/
+@media (min-width: 320px) and (max-width: 767px) {
+  .info{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align:center;
+  }
+
+  main{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  body{font-size: 0.888rem}
+  h1{font-size: 1.4rem; }
+  h2{font-size: 1.2rem; }
+  h3{font-size: 1rem}
+}
+
+/*Tablet and desktop*/
+@media (min-width: 768px){
+  .info{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+    text-align:center;
+  }
+
+  main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+   /*experience e education*/
+   .experiencetasks, .educationboxes, .languagesboxes, .certificationsboxes, .coursesboxes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 50%);
+
+  }
+
+  .logo{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+
+
+
 }

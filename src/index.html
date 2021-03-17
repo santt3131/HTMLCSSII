@@ -1,24 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="es">
 
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
-  </head>
-  <body>
-    <img src="./assets/images/logo.png" alt="Universitat Oberta de Catalunya" class="uoc-logo">
-    <h1 class="uoc-title">Hello, UOC!
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+  <title>CV Santiago Bruno</title>
+</head>
 
-      <i class="fas fa-university"></i>
-    </h1>
-    <p>
-      This is a starter template for the Advanced HTML and CSS Tools courses
-      from the Master's Program in Multimedia Applications and the Master's
-      Program in Web App and Website Development at the Universitat Oberta de
-      Catalunya.
-    </p>
-    <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-  </body>
+<body>
+  <header>
+    <div class="info">
+      <div class="photo">
+        <img class="photo__item" src="./assets/images/santiago.png" alt="Foto de Santiago Bruno">
+      </div>
+      <div class="title">
+        <h1 class="title__item">SANTIAGO ANDRÉS BRUNO PÉREZ</h1>
+        <h2 class="title__item">FRONTEND ENGINEER </h2>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="personal">
+      <section class="aboutme">
+        <h2 class="aboutme__title">
+          <i class="fas fa-address-card"> SOBRE MÍ </i>
+        </h2>
+        <p class="aboutme__info">
+          Soy desarrollador front-end . Me describo como un desarrollador apasionado que ama las
+          tecnologías web, resuelve problemas de manera eficiente y tengo capacidad para trabajar
+          en equipo.
+        </p>
+      </section>
+      <section class="contact">
+        <h2 class="contact__title">
+          <i class="fas fa-user"> CONTÁCTAME </i>
+        </h2>
+        <div class="contact__item">08041, Barcelona</div>
+        <div class="contact__item">Telf: 686 635 587</div>
+        <div class="contact__item">31914309S</div>
+        <div class="contact__item">santt31@gmail.com</div>
+      </section>
+    </section>
+    <section class="professional">
+      <section class="experience">
+        <h2 class="experience__title">
+          <i class="fas fa-briefcase"> EXPERIENCIA LABORAL</i>
+        </h2>
+        <div class="experiencetasks">
+          <div class="tasklist">
+            <h3 class="tasklist__title">2018-Actual. Solutions Analyst-Everis Barcelona</h3>
+            <ul class="taskbody">
+              <li class="taskbody__item">Programador Front-end: Angular, HTML, CSS, TS.</li>
+              <li class="taskbody__item">Tecnología propia de European Patent Office(EPO) : EBL.</li>
+              <li class="taskbody__item">PROTACTOR testing.</li>
+              <li class="taskbody__item">Análisis de issues.</li>
+              <li class="taskbody__item">Metodología SCRUM.</li>
+              <li class="taskbody__item">Herramientas: JIRA, GIT.</li>
+            </ul>
+          </div>
+          <div class="tasklist">
+            <h3 class="tasklist__title">2017-2018 Consultor Data Management - Optimissa Barcelona</h3>
+            <ul class="taskbody">
+              <li class="taskbody__item">Data Mining -TSB Bank (UK)- Banco Sabadell.</li>
+              <li class="taskbody__item">Comprobación de datos – Sistemas de PROTEO en entorno UAT- GOS.</li>
+              <li class="taskbody__item">Análisis de Test Cases.</li>
+              <li class="taskbody__item">Productos Bancarios y Gestión de clientes.</li>
+              <li class="taskbody__item">Entornos First Data.</li>
+            </ul>
+          </div>
+          <div class="tasklist">
+            <h3 class="tasklist__title">2017 IT Services - Fira Barcelona</h3>
+            <ul class="taskbody">
+              <li class="taskbody__item">CRM Dynamics.</li>
+              <li class="taskbody__item">SAP (tareas especificas).</li>
+              <li class="taskbody__item">PROTACTOR testing.</li>
+              <li class="taskbody__item">Análisis de issues.</li>
+              <li class="taskbody__item">Metodología SCRUM.</li>
+              <li class="taskbody__item">Herramientas: JIRA, GIT.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="education">
+        <h2 class="education__title">
+          <i class="fas fa-university"> ESTUDIOS</i>
+        </h2>
+        <div class="educationboxes">
+          <div class="box">
+            <h3 class="box__title">2019-2021 Máster universitario de Desarrollo de Sitios y Aplicaciones Web</h3>
+            <p class="box__body">Universidad Oberta de Catalunya</p>
+          </div>
+          <div class="box">
+            <h3 class="box__title">Ingeniería de Computación y Sistemas(Homologado – España)</h3>
+            <p class="box__body">Universidad Privada Antenor Orrego</p>
+          </div>
+        </div>
+      </section>
+      <section class="language">
+        <h2 class="language__title">
+         <i class="fas fa-language"> IDIOMAS</i>
+        </h2>
+        <div class="languagesboxes">
+          <div class="box">
+            <h3 class="box__title">Inglés</h3>
+            <p class="box__body">Nivel intermedio hablado y escrito. (B1-B2)
+              2013 – 2015 Universidad Privada Antenor Orrego.
+            </p>
+          </div>
+          <div class="box">
+            <h3 class="box__title">Castellano</h3>
+            <p class="box__body"> Lengua materna.</p>
+          </div>
+        </div>
+      </section>
+      <section class="certification">
+        <h2 class="certification__title">
+          <i class="fas fa-certificate"> CERTIFICACIONES</i>
+        </h2>
+        <div class="certificationsboxes">
+          <div class="box">
+            <h3 class="box__title">Scrum Master</h3>
+            <p class="box__body">European Scrum (2019)</p>
+          </div>
+          <div class="box">
+            <h3 class="box__title">ISQTB</h3>
+            <p class="box__body">International Software Testing Qualification (2019)</p>
+          </div>
+        </div>
+      </section>
+      <section class="courses">
+        <h2 class="courses__title">
+          <i class="fas fa-mouse-pointer"> CURSOS</i>
+        </h2>
+        <div class="coursesboxes">
+          <div class="box">
+            <h3 class="box__title">Javascript</h3>
+            <p class="box__body">Universidad Oberta de Catalunya</p>
+          </div>
+          <div class="box">
+            <h3 class="box__title">Angular</h3>
+            <p class="box__body">Universidad Oberta de Catalunya</p>
+          </div>
+        </div>
+      </section>
+      <section class="others">
+        <h2 class="others__title">
+          <i class="fas fa-share-alt-square"> OTROS</i>
+        </h2>
+        <ul class="logo">
+          <li class="logo__item">
+            <a href="https://www.linkedin.com/in/santiagobrunop/">
+              <i style="color:#0e76a8" class="fab  fa-linkedin-in fa-5x"></i>
+            </a>
+          </li>
+          <li class="logo__item">
+            <a href="https://github.com/santt3131">
+              <i style="color:#211f1f" class="fab fa-github fa-5x"></i>
+            </a>
+          </li>
+          <li class="logo__item">
+            <a href="http://www.santiagobruno.com/">
+              <i style="color:#4f4cb0" class="fas fa-globe-americas fa-5x"></i>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </section>
+  </main>
+  <footer>
+  </footer>
+</body>
+
 </html>
