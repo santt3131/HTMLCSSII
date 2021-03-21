@@ -6,7 +6,7 @@ body {
   color: $font-color;
   background-color: $main-color;
   @media (min-width: 320px) and (max-width: 767px) {
-    font-size: 0.888rem;
+    font-size: .888rem;
   }
   @media (min-width: 768px) {
     font-size: 1rem;

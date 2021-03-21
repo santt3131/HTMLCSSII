@@ -216,9 +216,16 @@
       'animation-fill-mode',
       'fill',
       'stroke'
-        ]
+        ],
+    "selector-list-comma-newline-after": "always",    
+    "block-opening-brace-space-before": "always",
+    "block-closing-brace-newline-before": "always",
+    "declaration-colon-space-after": "always",
+    "at-rule-semicolon-newline-after": "always",
+    "number-leading-zero": "never",
+    "color-hex-case": "lower"
 },
-"plugins": [
+"plugins": [  
     "stylelint-order"
   ]
 }
